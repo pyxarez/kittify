@@ -1,0 +1,19 @@
+{
+  "name": "kittyfy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "devDependencies": {
+    "rollup": "^1.6.0",
+    "rollup-plugin-chrome-extension": "^1.1.2",
+    "rollup-plugin-commonjs": "^10.0.2",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "wired-elements": "^1.0.0"
+  }
+}
